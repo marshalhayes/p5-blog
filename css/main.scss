@@ -1,0 +1,49 @@
+---
+---
+
+$theme-colors: (
+  "primary": magenta,
+  "secondary": gray
+);
+
+$body-bg: #fff;
+
+$link-hover-color: darken(magenta, 15);
+$link-decoration: none;
+$link-hover-decoration: none;
+
+#nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  height: auto;
+  vertical-align: middle;
+}
+  #nav a {
+    color: #fff;
+  }
+  #nav a:hover {
+    color: $link-hover-color;
+  }
+  #nav a.active {
+    color: magenta;
+    font-weight: 500;
+  }
+
+@import 'bootstrap/scss/bootstrap';
+
+// Skill dots
+.skill-dot-fill {
+  color: theme-color('primary');
+}
+  .skill-dot-nofill {
+    color: theme-color('secondary');
+  }
+
+.no-text-select {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}

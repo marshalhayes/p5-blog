@@ -1,0 +1,6 @@
+<div id="nav" class="row">
+  {% for p in site.data.sitemap %}
+  {% if p.url == page.url %}<div class="col-sm text-right"><a class="active" href="{{ p.url }}">{{ p.name }}</a></div>
+  {% else %}<div class="col-sm text-right"><a href="{{ p.url }}">{{ p.name }}</a></div>{% endif %}
+  {% endfor %}
+</div>

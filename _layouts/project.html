@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body>
+    <div id="menu">{% include nav.html %}</div>
+    <div class="container-fluid">
+      <h1>{{ page.title }}</h1>
+      <h6>{{ page.date | date: "%-d %B %Y" }}</h6>
+      <p><a href="http://github.com/{{ page.github }}" target="_blank">View on GitHub</a></p>
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
