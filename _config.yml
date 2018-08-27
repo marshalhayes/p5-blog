@@ -16,8 +16,8 @@
 title: Site title
 description: >- # this means to ignore newlines until "baseurl:"
   Your somewhat long site description
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/p5-blog" # the subpath of your site, e.g. /blog
+url: "https://marshalh.com" # the base hostname & protocol for your site, e.g. http://example.com
 github: "" # your github username/reponame (i.e. marshalhayes/p5-focal)
 
 social:
