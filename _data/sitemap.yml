@@ -1,6 +1,6 @@
 - name: Home
-  url: /
+  url: /p5-blog/
 - name: About
-  url: /about/
+  url: /p5-blog/about/
 - name: Blog
-  url: /blog/
+  url: /p5-blog/blog/

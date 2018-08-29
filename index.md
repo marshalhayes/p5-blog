@@ -10,7 +10,7 @@ title: Welcome
   </div>
 </div>
 
-## Recent Projects
+## Recent Posts
 
 <div>
   {% for post in site.posts limit:3 %}
